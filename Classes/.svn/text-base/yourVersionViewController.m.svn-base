@@ -1,0 +1,150 @@
+//
+//  yourVersionViewController.m
+//  yourVersion
+//
+//  Created by Mac on 2009/7/24.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//
+
+#import "yourVersionViewController.h"
+//#import "browserController.h"
+
+@implementation yourVersionViewController
+
+//BrowserController *browserController;
+
+@synthesize theWebView, loader, theTimer, theBrowser, browserView, browserSpinner;
+//BrowserController *browserController;
+
+
+/*
+// The designated initializer. Override to perform setup that is required before the view is loaded.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        // Custom initialization
+    }
+    return self;
+}
+*/
+
+
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView {
+	
+}
+
+
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	NSLog(@"loading view");
+	
+	self.theWebView.delegate = self;
+	[self.theWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://yourversion.com/index.php?p=mobile"]]];
+	
+	self.theTimer = [NSTimer scheduledTimerWithTimeInterval:(0.3) target:self selector:@selector(updateSpinner:) userInfo:nil repeats:YES];
+}
+
+-(void)updateSpinner:(NSObject*)dummy{
+	//NSLog(@"animating?");
+	if(!self.theWebView.loading){
+		[UIView beginAnimations:nil context:NULL];
+		[UIView setAnimationDuration:0.4];
+		self.loader.alpha = 0;
+		[UIView commitAnimations];
+		//self.loader.hidden=YES;
+		[self.theTimer invalidate];
+	}
+}
+-(void)updateSpinner2:(NSObject*)dummy{
+	//NSLog(@"animating?");
+	if(!self.theBrowser.loading){
+		[UIView beginAnimations:nil context:NULL];
+		[UIView setAnimationDuration:0.4];
+		self.browserSpinner.alpha = 0;
+		[UIView commitAnimations];
+		//self.loader.hidden=YES;
+		[self.theTimer invalidate];
+	}
+}
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+- (BOOL)webView:(UIWebView *)theWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+
+	NSURL* url = [request URL];
+	NSString * urlString = [url absoluteString];
+	
+	NSBundle * mainBundle = [NSBundle mainBundle];
+	
+	// Check to see if the URL request is for the App URL.
+	// If it is not, then launch using Safari
+	NSString* urlHost = [url host];
+	
+	NSLog(urlHost);
+	NSLog(urlString);
+	
+	//bugfix for admob.
+	if([@"about" isEqualToString:[url scheme]]) {
+		return YES;
+	}
+	
+	if([urlHost isEqualToString:@"yourversion.com"]){
+		NSLog(@"is equal!");
+		return YES;
+	}else{
+		NSLog(@"no equal!");
+		//[UIView beginAnimations:nil context:NULL];
+		//[UIView setAnimationDuration:0.5];
+		//browserController = [[BrowserController alloc] init];
+		//[[[[UIApplication sharedApplication] windows] lastObject] addSubview:browserController.view];
+		//[[[[UIApplication sharedApplication] windows] lastObject] makeKeyAndVisible];
+		//[UIView commitAnimations];
+		//BrowserController *browser=[BrowserController alloc];
+		//[browserController loadURL:url];
+		//[[UIApplication sharedApplication] openURL:url];
+		[self.theBrowser loadRequest:[NSURLRequest requestWithURL:url]];
+		[UIView beginAnimations:nil context:NULL];
+		[UIView setAnimationDuration:0.5];
+		self.browserSpinner.alpha=1.0;
+		[UIView commitAnimations];
+		self.theTimer = [NSTimer scheduledTimerWithTimeInterval:(0.3) target:self selector:@selector(updateSpinner2:) userInfo:nil repeats:YES];
+		self.browserView.hidden=NO;
+		
+		return NO;
+	}
+	//return YES;
+	//return YES;
+}
+
+-(IBAction)backClicked:(id)sender{
+	self.browserView.hidden=YES;
+	[self.theBrowser loadHTMLString:@"" baseURL:nil];
+}
+
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+@end

@@ -1,0 +1,33 @@
+//
+//  yourVersionViewController.h
+//  yourVersion
+//
+//  Created by Mac on 2009/7/24.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+//#import "browserController.h"
+
+@interface yourVersionViewController : UIViewController <UIWebViewDelegate> {
+	IBOutlet UIWebView *theWebView;
+	IBOutlet UIWebView *theBrowser;
+	IBOutlet UIView *loader;
+	IBOutlet UIView *browserView;
+	IBOutlet UIActivityIndicatorView *browserSpinner;
+	NSTimer *theTimer;
+	//BrowserController *browserController;
+}
+@property(nonatomic,assign) IBOutlet UIWebView *theWebView;
+@property(nonatomic,assign) IBOutlet UIView *loader;
+@property(nonatomic,assign) NSTimer *theTimer;
+@property(nonatomic,assign) UIWebView *theBrowser;
+@property(nonatomic,assign) UIView *browserView;
+@property(nonatomic,assign) UIActivityIndicatorView *browserSpinner;
+//@property(nonatomic,assign) BrowserController *browserController;
+
+
+-(IBAction)backClicked:(id)sender;
+
+@end
+

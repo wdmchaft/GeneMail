@@ -1,0 +1,1112 @@
+TyourVersion
+v7
+r0
+t275257498.180016
+cCheck dependencies
+cCpResource build/Release-iphoneos/GeneMail.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Info.plist yourVersion-Info.plist
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png apple-touch-icon60px.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png apple-touch-icon57px.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Default.png Default.png
+cCpResource build/Release-iphoneos/GeneMail.app/logo2.gif logo2.gif
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/gmail.png gmail.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/mail.png mail.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/18-envelope.png 18-envelope.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png 06-magnifying-glass.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/14-tag.png 14-tag.png
+cCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/28-star.png 28-star.png
+cProcessPCH /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch.gch yourVersion_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail normal armv6
+cGenerateDSYMFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app.dSYM /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail
+cProcessProductPackaging "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision
+cTouch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent
+cCodeSign /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk
+c000000004A2FE4A30000000000000110
+t1244652707
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/Entitlements.plist
+c00000000490607F400000000000000E6
+t1225132020
+s230
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/ResourceRules.plist
+c00000000490607F500000000000001E5
+t1225132021
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000049178A2E0000000000215BA0
+t1226279470
+s2186144
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000049178ACD0000000000197700
+t1226279629
+s1668864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000490D17D50000000000001355
+t1225594837
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c00000000490D17170000000000001A0E
+t1225594647
+s6670
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000049178A8800000000000439B0
+t1226279560
+s276912
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004917728F000000000000067D
+t1226273423
+s1661
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000049178BF400000000004723E0
+t1226279924
+s4662240
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004A8B68040000000000000110
+t1250650116
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004A7654F00000000000001A78
+t1249268976
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A7654FE00000000000D7460
+t1249268990
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/06-magnifying-glass.png
+c000000004972412E0000000000000184
+t1232224558
+s388
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/14-tag.png
+c0000000049724186000000000000015E
+t1232224646
+s350
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/18-envelope.png
+c00000000497241A600000000000000F8
+t1232224678
+s248
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/28-star.png
+c000000004972420C0000000000000177
+t1232224780
+s375
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.h
+c000000004AB734360000000000000A01
+t1253520438
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m
+c000000004AB733EB000000000000089E
+t1253520363
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.h
+c000000004AB733EB0000000000000916
+t1253520363
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m
+c000000004AB733EB000000000000087D
+t1253520363
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.h
+c000000004AB733EB0000000000000AED
+t1253520363
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m
+c000000004AB733EB0000000000001ABC
+t1253520363
+s6844
+i"SBJSON.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.h
+c000000004AB733EB0000000000000B82
+t1253520363
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m
+c000000004AB733EB0000000000000AC1
+t1253520363
+s2753
+i"SBJsonBase.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.h
+c000000004AB733EB0000000000000C0B
+t1253520363
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m
+c000000004AB733EB00000000000036CF
+t1253520363
+s14031
+i"SBJsonParser.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.h
+c000000004AB733EB0000000000001140
+t1253520363
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m
+c000000004AB733EB0000000000001E83
+t1253520363
+s7811
+i"SBJsonWriter.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.h
+c000000004A6A462E0000000000000263
+t1248478766
+s611
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m
+c000000004A6A4B4000000000000004DC
+t1248480064
+s1244
+i"BrowserController.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.h
+c000000004A85E405000000000000020E
+t1250288645
+s526
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m
+c000000004AB467880000000000000B05
+t1253336968
+s2821
+i"yourVersionAppDelegate.h"
+i"yourVersionViewController.h"
+i"browserController.h"
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.h
+c000000004AB73A040000000000000773
+t1253521924
+s1907
+i<UIKit/UIKit.h>
+i"SBJSON.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m
+c000000004AB749F2000000000000457F
+t1253526002
+s17791
+i"yourVersionViewController.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Defaul2t.png
+c000000004A8603FD0000000000003BC7
+t1250296829
+s15303
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png
+c000000004AB46E680000000000145927
+t1253338728
+s1333543
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+c000000004AB731F8000000000000D51B
+t1253519864
+s54555
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png
+c000000004A85DE09000000000000CE27
+t1250287113
+s52775
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png
+c000000004A3F238400000000000012A0
+t1245651844
+s4768
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+c000000004A9473AF0000000000004714
+t1251242927
+s18196
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+t1253564677
+s782
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app.dSYM
+t1253528211
+s102
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png
+t1253489322
+s507
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/14-tag.png
+t1253489322
+s414
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/18-envelope.png
+t1253489321
+s305
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/28-star.png
+t1253489322
+s483
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Defaul2t.png
+t1253337784
+s14063
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Default.png
+t1253338865
+s175873
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail
+t1253528211
+s77408
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Info.plist
+t1253528204
+s660
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/MainWindow.nib
+t1253524795
+s4400
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/PkgInfo
+t1253528205
+s8
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/ResourceRules.plist
+t1253337783
+s485
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png
+t1253337784
+s16642
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png
+t1253337784
+s5213
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/browserController.nib
+t1253337784
+s2660
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision
+t1253337786
+s7559
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/gmail.png
+t1253528206
+s19078
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/logo2.gif
+t1253337784
+s3664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/mail.png
+t1253489321
+s13923
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/yourVersionViewController.nib
+t1253337784
+s800
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app
+t1253337758
+s578
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app.dSYM
+t1253337238
+s102
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Defaul2t.png
+t1253337236
+s14063
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Default.png
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Info.plist
+t1253337234
+s672
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/MainWindow.nib
+t1253337758
+s2928
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/PkgInfo
+t1253337234
+s8
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/ResourceRules.plist
+t1253337234
+s485
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion
+t1253337238
+s33440
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon57px.png
+t1253337236
+s16642
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon60px.png
+t1253337236
+s5213
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/browserController.nib
+t1253337236
+s2668
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/embedded.mobileprovision
+t1253337238
+s7559
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/gmail.png
+t1253337236
+s32507
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/logo2.gif
+t1253337236
+s3664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/yourVersionViewController.nib
+t1253337236
+s800
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent
+t1253528211
+s316
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/GeneMail.LinkFileList
+c000000004AB7453A00000000000005EE
+t1253524794
+s1518
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1253524796
+s8656
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o
+t1253524796
+s8580
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o
+t1253524797
+s20092
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o
+t1253524797
+s13628
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o
+t1253524797
+s33832
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o
+t1253524798
+s24648
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/YourVersion.LinkFileList
+c000000004AB46892000000000000026C
+t1253337234
+s620
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o
+t1253337785
+s41476
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o
+t1253337785
+s6664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o
+t1253524796
+s49832
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o
+t1253528210
+s96368
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent
+t1253337239
+s319
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/gmail.png
+c000000004AB74E4E000000000000F20B
+t1253527118
+s61963
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif
+c000000004AB466910000000000000E50
+t1253336721
+s3664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/mail.png
+c000000004AB6A2A9000000000000BDE0
+t1253483177
+s48608
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m
+c000000004A6A42F00000000000000166
+t1248477936
+s358
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+c000000004A6A42F000000000000018B2
+t1248477936
+s6322
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch
+c000000004A6A42F000000000000000BF
+t1248477936
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision
+c000000004AA322100000000000001D87
+t1252205072
+s7559
+
+N/var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-cztmmfmsckevkhgeaztxlqcozmqg/yourVersion_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch.gch
+t1253337785
+s7700664
+
+NyourVersion-Info.plist
+c000000004AB74E950000000000000378
+t1253527189
+s888
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies275257498#275257498#0(113"[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/geneMail.txt' of type text for architecture armv61(22@106"warning: no rule to process file '$(PROJECT_DIR)/Classes/geneMail.txt' of type text for architecture armv6275257498#4294967295#0#0(1@0"0(0#1#0"2433711424#0"0#
+
+CCodeSign /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+s275257474.826690
+e275257477.030779
+r1
+xCodeSign
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Release-iphoneos/GeneMail.app275257474#275257477#0(121"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app: replacing existing signature0(0#0#90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app2433711424#711"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: gene tsai" --resource-rules=/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/ResourceRules.plist --entitlements /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app0#
+
+CCodeSign /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app
+s275030558.136574
+e275030558.296853
+r1
+xCodeSign
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app: replacing existing signature
+lSLF07#2@47"CodeSign build/Release-iphoneos/YourVersion.app275030558#275030558#0(124"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app: replacing existing signature0(0#0#93"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app2433711424#720"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: gene tsai" --resource-rules=/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/ResourceRules.plist --entitlements /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217596.659232
+e275217596.728478
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m275217596#275217596#0(0"0(0#0#87"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m2433711424#2040"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSObject+SBJSON.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217596.729011
+e275217596.798493
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m275217596#275217596#0(0"0(0#0#87"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m2433711424#2040"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/NSString+SBJSON.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217596.798589
+e275217597.172747
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m275217596#275217597#0(0"0(0#0#78"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m2433711424#2022"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJSON.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217597.172856
+e275217597.406564
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m275217597#275217597#0(0"0(0#0#82"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m2433711424#2030"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonBase.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217597.406667
+e275217598.012616
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m275217597#275217598#0(0"0(0#0#84"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m2433711424#2034"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonParser.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217597.883897
+e275217598.193026
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m275217597#275217598#0(0"0(0#0#84"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m2433711424#2034"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/SBJSON/SBJsonWriter.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275030585.835692
+e275030585.966226
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m275030585#275030586#0(0"0(0#0#82"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m2433711424#2037"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/browserController.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275030585.671904
+e275030585.741348
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m275030585#275030585#0(0"0(0#0#61"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m2433711424#2003"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275217595.696024
+e275217596.658882
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m: In function '-[yourVersionAppDelegate applicationDidFinishLaunching:]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: 'yourVersionAppDelegate' may not respond to '-isDataSourceAvailable'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: '...' as arguments.)
+lSLF07#2@95"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m275217595#275217596#0(743"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m: In function '-[yourVersionAppDelegate applicationDidFinishLaunching:]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: 'yourVersionAppDelegate' may not respond to '-isDataSourceAvailable'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: (Messages without a matching method signature/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m:25: warning: '...' as arguments.)2(22@68"'yourVersionAppDelegate' may not respond to '-isDataSourceAvailable'275217596#161#170#0(6@87"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m275029768#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)275217596#331#147#0(6@87"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m275029768#25#0#25#0#0"0(0#0#87"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m2433711424#2047"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionAppDelegate.o0#
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275221006.651256
+e275221010.247890
+r1
+xCompileC
+xbuild/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController phoneHome]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:39: warning: unused variable 'pool'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController loadInstructionsJSON]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:86: warning: unused variable 'oneDayAgo'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController viewDidLoad]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: 'yourVersionViewController' may not respond to '-getMasterDict'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: (Messages without a matching method signature
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: will be assumed to return 'id' and accept
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: '...' as arguments.)
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:115: warning: 'yourVersionViewController' may not respond to '-drawBadges'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:119: warning: 'yourVersionViewController' may not respond to '-loadUrlString:'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:111: warning: unused variable 'fileManager'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getAndSetLabels]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:143: warning: local declaration of 'labels' hides instance variable
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:148: warning: local declaration of 'labels' hides instance variable
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:156: warning: 'yourVersionViewController' may not respond to '-saveMasterDict'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController initGmail]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:160: warning: 'yourVersionViewController' may not respond to '-retreiveAndSetBadge'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController retreiveAndSetBadge]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:197: warning: 'yourVersionViewController' may not respond to '-saveMasterDict'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController tabBar:didSelectItem:]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:236: warning: 'yourVersionViewController' may not respond to '-showLabels'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getMasterDict]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:348: warning: distinct Objective-C type in return
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController webView:shouldStartLoadWithRequest:navigationType:]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:396: warning: unused variable 'mainBundle'
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: At top level:
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:496: warning: property 'labels' requires method '-labels' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:496: warning: property 'labels' requires the method 'setLabels:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getRemoteInstructions]':
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:74: warning: control reaches end of non-void function
+lSLF07#2@98"Compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275221006#275221010#0(4865"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController phoneHome]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:39: warning: unused variable 'pool'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController loadInstructionsJSON]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:86: warning: unused variable 'oneDayAgo'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController viewDidLoad]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: 'yourVersionViewController' may not respond to '-getMasterDict'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: (Messages without a matching method signature/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: will be assumed to return 'id' and accept/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:114: warning: '...' as arguments.)/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:115: warning: 'yourVersionViewController' may not respond to '-drawBadges'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:119: warning: 'yourVersionViewController' may not respond to '-loadUrlString:'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:111: warning: unused variable 'fileManager'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getAndSetLabels]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:143: warning: local declaration of 'labels' hides instance variable/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:148: warning: local declaration of 'labels' hides instance variable/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:156: warning: 'yourVersionViewController' may not respond to '-saveMasterDict'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController initGmail]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:160: warning: 'yourVersionViewController' may not respond to '-retreiveAndSetBadge'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController retreiveAndSetBadge]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:197: warning: 'yourVersionViewController' may not respond to '-saveMasterDict'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController tabBar:didSelectItem:]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:236: warning: 'yourVersionViewController' may not respond to '-showLabels'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getMasterDict]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:348: warning: distinct Objective-C type in return/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController webView:shouldStartLoadWithRequest:navigationType:]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:396: warning: unused variable 'mainBundle'/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: At top level:/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:496: warning: property 'labels' requires method '-labels' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:496: warning: property 'labels' requires the method 'setLabels:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m: In function '-[yourVersionViewController getRemoteInstructions]':/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m:74: warning: control reaches end of non-void function19(22@22"Unused variable 'pool'275221009#146#127#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#39#0#39#0#19"unused variable '*'0(22@27"Unused variable 'oneDayAgo'275221009#430#132#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#86#0#86#0#19"unused variable '*'0(22@63"'yourVersionViewController' may not respond to '-getMasterDict'275221009#710#169#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#114#0#114#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)275221009#879#151#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#114#0#114#0#0"0(22@60"'yourVersionViewController' may not respond to '-drawBadges'275221009#1303#166#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#115#0#115#0#26"'*' may not respond to '*'0(22@64"'yourVersionViewController' may not respond to '-loadUrlString:'275221009#1469#170#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#119#0#119#0#26"'*' may not respond to '*'0(22@29"Unused variable 'fileManager'275221009#1639#135#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#111#0#111#0#19"unused variable '*'0(22@53"Local declaration of 'labels' hides instance variable275221009#1926#159#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#143#0#143#0#0"0(22@53"Local declaration of 'labels' hides instance variable275221009#2085#159#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#148#0#148#0#0"0(22@64"'yourVersionViewController' may not respond to '-saveMasterDict'275221009#2244#170#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#156#0#156#0#26"'*' may not respond to '*'0(22@69"'yourVersionViewController' may not respond to '-retreiveAndSetBadge'275221009#2560#175#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#160#0#160#0#26"'*' may not respond to '*'0(22@64"'yourVersionViewController' may not respond to '-saveMasterDict'275221009#2891#170#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#197#0#197#0#26"'*' may not respond to '*'0(22@60"'yourVersionViewController' may not respond to '-showLabels'275221009#3219#166#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#236#0#236#0#26"'*' may not respond to '*'0(22@35"Distinct Objective-C type in return275221009#3535#141#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#348#0#348#0#0"0(22@28"Unused variable 'mainBundle'275221009#3863#134#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#396#0#396#0#19"unused variable '*'0(23@13"At top level:275221009#3997#106#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#0#0#0#0#0"0(22@120"Property 'labels' requires method '-labels' to be defined - use @synthesize, @dynamic or provide a method implementation275221009#4103#226#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#496#0#496#0#0"0(22@127"Property 'labels' requires the method 'setLabels:' to be defined - use @synthesize, @dynamic or provide a method implementation275221009#4329#233#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#496#0#496#0#0"0(22@40"Control reaches end of non-void function275221009#4720#145#0(6@90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m275218802#74#0#74#0#40"control reaches end of non-void function0(0#0#90"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m2433711424#2053"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -include /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/yourVersionViewController.o0#
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+s275217594.840253
+e275217595.695700
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:10: warning: 'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:57: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.
+lSLF07#2@25"CompileXIB MainWindow.xib275217594#275217595#0(437"/* com.apple.ibtool.document.warnings *//Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:10: warning: 'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported./Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:57: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.2(22@118"'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.275217595#4294967295#0#0(6@69"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib275212664#10#0#10#0#0"0(22@110"This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.275217595#4294967295#0#0(6@69"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib275212664#57#0#57#0#0"0(0#0#69"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib2433711424#517"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/MainWindow.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib0#
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+s275030584.203543
+e275030584.839589
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type.
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:3: warning: Turning off phone number detection is not supported on iPhone OS versions prior 3.0.
+lSLF07#2@32"CompileXIB browserController.xib275030584#275030584#0(461"/* com.apple.ibtool.document.warnings *//Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type./Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:3: warning: Turning off phone number detection is not supported on iPhone OS versions prior 3.0.2(22@155"The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type.275030584#4294967295#0#0(6@76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib272935727#4294967295#0#4294967295#0#0"0(22@84"Turning off phone number detection is not supported on iPhone OS versions prior 3.0.275030584#4294967295#0#0(6@76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib272935727#3#0#3#0#0"0(0#0#76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib2433711424#531"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/browserController.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib0#
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+s275030583.736218
+e275030584.203456
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+lSLF07#2@40"CompileXIB yourVersionViewController.xib275030583#275030584#0(0"0(0#0#84"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib2433711424#547"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/yourVersionViewController.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png 06-magnifying-glass.png
+s275182121.961947
+e275182122.176853
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png
+x06-magnifying-glass.png
+lSLF07#2@95"CopyPNGFile build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png 06-magnifying-glass.png275182121#275182122#0(0"0(0#0#78"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/06-magnifying-glass.png2433711424#637"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/06-magnifying-glass.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/06-magnifying-glass.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/14-tag.png 14-tag.png
+s275182122.176947
+e275182122.520957
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/14-tag.png
+x14-tag.png
+lSLF07#2@69"CopyPNGFile build/Release-iphoneos/GeneMail.app/14-tag.png 14-tag.png275182122#275182122#0(0"0(0#0#65"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/14-tag.png2433711424#611"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/14-tag.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/14-tag.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/18-envelope.png 18-envelope.png
+s275182121.408563
+e275182121.961841
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/18-envelope.png
+x18-envelope.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/GeneMail.app/18-envelope.png 18-envelope.png275182121#275182121#0(0"0(0#0#70"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/18-envelope.png2433711424#621"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/18-envelope.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/18-envelope.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/28-star.png 28-star.png
+s275182122.521041
+e275182122.708137
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/28-star.png
+x28-star.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/GeneMail.app/28-star.png 28-star.png275182122#275182122#0(0"0(0#0#66"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/28-star.png2433711424#613"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/28-star.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/28-star.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Defaul2t.png Defaul2t.png
+s275030584.755364
+e275030584.850624
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Defaul2t.png
+xDefaul2t.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/GeneMail.app/Defaul2t.png Defaul2t.png275030584#275030584#0(0"0(0#0#67"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Defaul2t.png2433711424#615"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Defaul2t.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Defaul2t.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Default.png Default.png
+s275031664.366768
+e275031665.800703
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Default.png
+xDefault.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/GeneMail.app/Default.png Default.png275031664#275031665#0(0"0(0#0#66"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png2433711424#613"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Default.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png apple-touch-icon57px.png
+s275030584.722762
+e275030584.755269
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png
+xapple-touch-icon57px.png
+lSLF07#2@97"CopyPNGFile build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png apple-touch-icon57px.png275030584#275030584#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png2433711424#639"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon57px.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png apple-touch-icon60px.png
+s275030584.591778
+e275030584.722665
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png
+xapple-touch-icon60px.png
+lSLF07#2@97"CopyPNGFile build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png apple-touch-icon60px.png275030584#275030584#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png2433711424#639"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/apple-touch-icon60px.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/gmail.png gmail.png
+s275221005.179981
+e275221006.650612
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/gmail.png
+xgmail.png
+lSLF07#2@67"CopyPNGFile build/Release-iphoneos/GeneMail.app/gmail.png gmail.png275221005#275221006#0(0"0(0#0#64"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/gmail.png2433711424#609"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/gmail.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/gmail.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/mail.png mail.png
+s275182116.723441
+e275182121.408365
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/mail.png
+xmail.png
+lSLF07#2@65"CopyPNGFile build/Release-iphoneos/GeneMail.app/mail.png mail.png275182116#275182121#0(0"0(0#0#63"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/mail.png2433711424#607"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/mail.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/mail.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Defaul2t.png Defaul2t.png
+s275030036.723803
+e275030036.810901
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Defaul2t.png
+xDefaul2t.png
+lSLF07#2@76"CopyPNGFile build/Release-iphoneos/YourVersion.app/Defaul2t.png Defaul2t.png275030036#275030036#0(0"0(0#0#67"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Defaul2t.png2433711424#618"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Defaul2t.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Defaul2t.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Default.png Default.png
+r0
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon57px.png apple-touch-icon57px.png
+s275030036.688692
+e275030036.723699
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon57px.png
+xapple-touch-icon57px.png
+lSLF07#2@100"CopyPNGFile build/Release-iphoneos/YourVersion.app/apple-touch-icon57px.png apple-touch-icon57px.png275030036#275030036#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png2433711424#642"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon57px.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon60px.png apple-touch-icon60px.png
+s275030036.233155
+e275030036.688520
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon60px.png
+xapple-touch-icon60px.png
+lSLF07#2@100"CopyPNGFile build/Release-iphoneos/YourVersion.app/apple-touch-icon60px.png apple-touch-icon60px.png275030036#275030036#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png2433711424#642"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/apple-touch-icon60px.png0#
+
+CCopyPNGFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/gmail.png gmail.png
+s275030036.811674
+e275030036.892806
+r1
+xCopyPNGFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/gmail.png
+xgmail.png
+lSLF07#2@70"CopyPNGFile build/Release-iphoneos/YourVersion.app/gmail.png gmail.png275030036#275030036#0(0"0(0#0#64"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/gmail.png2433711424#612"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/gmail.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/gmail.png0#
+
+CCpResource build/Release-iphoneos/GeneMail.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Release-iphoneos/GeneMail.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s275030583.663009
+e275030583.710228
+r1
+xCpResource
+xbuild/Release-iphoneos/GeneMail.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist275030583#275030583#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist2433711424#536"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app0#
+
+CCpResource build/Release-iphoneos/GeneMail.app/logo2.gif logo2.gif
+s275030584.839676
+e275030584.849357
+r1
+xCpResource
+xbuild/Release-iphoneos/GeneMail.app/logo2.gif
+xlogo2.gif
+lSLF07#2@14"Copy logo2.gif275030584#275030584#0(0"0(0#0#64"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif2433711424#511"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app0#
+
+CCpResource build/Release-iphoneos/YourVersion.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Release-iphoneos/YourVersion.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s275030034.656740
+e275030034.761031
+r1
+xCpResource
+xbuild/Release-iphoneos/YourVersion.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist275030034#275030034#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist4854736#539"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app0#
+
+CCpResource build/Release-iphoneos/YourVersion.app/logo2.gif logo2.gif
+s275030036.810992
+e275030036.817928
+r1
+xCpResource
+xbuild/Release-iphoneos/YourVersion.app/logo2.gif
+xlogo2.gif
+lSLF07#2@14"Copy logo2.gif275030036#275030036#0(0"0(0#0#64"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif2433711424#514"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app0#
+
+CGenerateDSYMFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app.dSYM /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail
+s275221011.061796
+e275221011.429308
+r1
+xGenerateDSYMFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app.dSYM
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/GeneMail.app.dSYM build/Release-iphoneos/GeneMail.app/GeneMail275221011#275221011#0(0"0(0#0#99"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail2433711424#417"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app.dSYM0#
+
+CGenerateDSYMFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app.dSYM /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion
+s275030038.905725
+e275030038.957749
+r1
+xGenerateDSYMFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app.dSYM
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/YourVersion.app.dSYM build/Release-iphoneos/YourVersion.app/YourVersion275030038#275030038#0(0"0(0#0#105"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion2433711424#426"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app.dSYM0#
+
+CLd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail normal armv6
+s275221010.248492
+e275221011.061698
+r1
+xLd
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail275221010#275221011#0(0"0(0#0#0"2433711424#1019"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -filelist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/GeneMail.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/GeneMail0#
+
+CLd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion normal armv6
+s275030038.045353
+e275030038.905620
+r1
+xLd
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion
+xnormal
+xarmv6
+lSLF07#2@110"Link /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion275030038#275030038#0(0"0(0#0#0"2433711424#1028"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -filelist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/Objects-normal/armv6/YourVersion.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/YourVersion0#
+
+CProcessInfoPlistFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Info.plist yourVersion-Info.plist
+s275221004.856473
+e275221005.179436
+r1
+xProcessInfoPlistFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Info.plist
+xyourVersion-Info.plist
+lSLF07#2@30"Process yourVersion-Info.plist275221004#275221005#0(0"0(0#0#77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion-Info.plist2433711424#639"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility yourVersion-Info.plist -genpkginfo /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/ResourceRules.plist -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Info.plist yourVersion-Info.plist
+s275030034.670633
+e275030034.734179
+r1
+xProcessInfoPlistFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Info.plist
+xyourVersion-Info.plist
+lSLF07#2@30"Process yourVersion-Info.plist275030034#275030034#0(0"0(0#0#77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion-Info.plist2433711424#648"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility yourVersion-Info.plist -genpkginfo /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/ResourceRules.plist -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/Info.plist0#
+
+CProcessPCH /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-cztmmfmsckevkhgeaztxlqcozmqg/yourVersion_Prefix.pch.gch yourVersion_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch.gch yourVersion_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s275030584.917195
+e275030585.671647
+r1
+xProcessPCH
+x/var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch.gch
+xyourVersion_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile yourVersion_Prefix.pch275030584#275030585#0(0"0(0#0#77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch2433711424#1879"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources/armv6 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/DerivedSources -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch -o /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-dnnxuiglucykvjbgcyxmzoytqlyh/yourVersion_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision
+s275030586.045221
+e275030586.068025
+r1
+xProcessProductPackaging
+x/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" build/Release-iphoneos/GeneMail.app/embedded.mobileprovision275030586#275030586#0(0"0(0#0#115"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision2433711424#456"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/embedded.mobileprovision
+s275030038.957931
+e275030038.978791
+r1
+xProcessProductPackaging
+x/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" build/Release-iphoneos/YourVersion.app/embedded.mobileprovision275030038#275030038#0(0"0(0#0#118"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/embedded.mobileprovision2433711424#459"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Mac/Library/MobileDevice/Provisioning Profiles/054A62E5-5401-4900-8686-A3413C821891.mobileprovision" -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/Entitlements.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.sdk/Entitlements.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent
+s275221011.434375
+e275221011.490398
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent275221011#275221011#0(0"0(0#0#128"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent2433711424#475"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/GeneMail.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent
+s275030038.985212
+e275030039.005923
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent275030038#275030039#0(0"0(0#0#131"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent2433711424#478"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphoneos/yourVersion.build/YourVersion.xcent0#
+
+CTouch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+s275221011.429505
+e275221011.434290
+r1
+xTouch
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app
+lSLF07#2@96"Touch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app275221011#275221011#0(0"0(0#0#0"2433711424#299"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/GeneMail.app0#
+
+CTouch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app
+s275030558.133828
+e275030558.136423
+r1
+xTouch
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app
+lSLF07#2@99"Touch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app275030558#275030558#0(0"0(0#0#0"2433711424#302"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphoneos/YourVersion.app0#
+

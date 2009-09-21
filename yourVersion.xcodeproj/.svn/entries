@@ -1,0 +1,53 @@
+8
+
+dir
+1475
+https://svn2.hosted-projects.com/columbus/columbus/iphone/yourVersion/yourVersion.xcodeproj
+https://svn2.hosted-projects.com/columbus/columbus
+
+
+
+2009-08-14T22:14:33.662423Z
+1475
+columbus
+
+
+svn:special svn:externals svn:needs-lock
+
+Mac.pbxuser
+file
+1539
+
+
+
+2009-08-26T03:06:28.000000Z
+7f624a63950ed341f67233614cfeb890
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+
+project.pbxproj
+file
+1539
+
+
+
+2009-08-26T03:06:28.000000Z
+1f110ed886391ea8b8851a79ff239826
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+has-props
+
+Mac.mode1v3
+file
+1539
+
+
+
+2009-08-26T03:06:28.000000Z
+20162a21c9abdca3e10fac2ab7c5436d
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+

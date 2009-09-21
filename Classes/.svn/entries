@@ -1,0 +1,88 @@
+8
+
+dir
+1475
+https://svn2.hosted-projects.com/columbus/columbus/iphone/yourVersion/Classes
+https://svn2.hosted-projects.com/columbus/columbus
+
+
+
+2009-08-14T22:14:33.662423Z
+1475
+columbus
+
+
+svn:special svn:externals svn:needs-lock
+
+browserController.m
+file
+
+
+
+
+2009-07-25T00:01:04.000000Z
+af0128eee338a1c7b0c218c2fba03dc6
+2009-08-14T22:14:33.662423Z
+1475
+columbus
+
+yourVersionAppDelegate.h
+file
+1476
+
+
+
+2009-08-14T22:24:05.000000Z
+a35e71b56c1819e6ed85a142153fdb53
+2009-08-14T22:32:16.166455Z
+1476
+columbus
+
+yourVersionViewController.h
+file
+1539
+
+
+
+2009-08-26T02:13:16.000000Z
+21c76e2b683ccb9ddcf140dd31bfbfe8
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+
+yourVersionAppDelegate.m
+file
+1539
+
+
+
+2009-08-25T19:47:30.000000Z
+c4e4fe4a1526584c3fe756e7767b5d6f
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+
+browserController.h
+file
+
+
+
+
+2009-07-24T23:39:26.000000Z
+f694a75a3805b4a311a4d465a35adf7e
+2009-08-14T22:14:33.662423Z
+1475
+columbus
+
+yourVersionViewController.m
+file
+1539
+
+
+
+2009-08-26T02:21:30.000000Z
+3828da34d4464ac8c85d39800210adf9
+2009-08-26T03:18:33.367986Z
+1539
+columbus
+

@@ -1,0 +1,12 @@
+{
+    "inboxURL" : "https://mail.google.com/mail/s/#tl/Inbox",
+    "composeURL" : "https://mail.google.com/mail/s/#co",
+    "starredURL" : "https://mail.google.com/mail/s/#tl/Starred",
+    "mainPageURL" : "https://mail.google.com/mail/s/#mn",
+    "labelsFormat" : "https://mail.google.com/mail/s/#tl/%@",
+    "getLabelsFunc" : "(function() {var l = document.querySelectorAll('div#mn div.xc');var b = [];for (var i=0; i < l.length; i++) {b.push(l[i].lastChild.nodeValue);};return b.join(',');})();",
+    "getInboxFunc" : "(function(){var i = document.querySelectorAll('div#views div div div div')[0].innerHTML;return i})();",
+    "getEmailFunc" : "(function(){return document.querySelectorAll('div.og_head b')[1].innerHTML})();",
+    "getWindowURLFunc" : "(function(){return window.location.href})();",
+    "searchFunc" : "_e({}, 'j', '');_e({}, 'showsearch', '');scroll(0,70);document.querySelectorAll('form input')[0].focus();"   
+}

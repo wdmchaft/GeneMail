@@ -1,0 +1,363 @@
+TyourVersion
+v7
+r0
+t275029699.740959
+cCheck dependencies
+cProcessInfoPlistFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Info.plist yourVersion-Info.plist
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+cCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+cCpResource build/Release-iphonesimulator/YourVersion.app/apple-touch-icon60px.png apple-touch-icon60px.png
+cCpResource build/Release-iphonesimulator/YourVersion.app/apple-touch-icon57px.png apple-touch-icon57px.png
+cCpResource build/Release-iphonesimulator/YourVersion.app/Default.png Default.png
+cCpResource build/Release-iphonesimulator/YourVersion.app/logo2.gif logo2.gif
+cProcessPCH /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-bmpfixuysrijypgflssjpyininnu/yourVersion_Prefix.pch.gch yourVersion_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk
+c000000004A2FE4C700000000000000EE
+t1244652743
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000490D152F000000000048E760
+t1225594159
+s4777824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000476CCCB200000000000E8760
+t1198312626
+s952160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000474937A600000000000012EE
+t1195980710
+s4846
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004907BF750000000000001A0E
+t1225244533
+s6670
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004907BF86000000000008D990
+t1225244550
+s579984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000049177D27000000000000067D
+t1226276135
+s1661
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000049177DBD0000000000843C30
+t1226276285
+s8666160
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.h
+c000000004A6A462E0000000000000263
+t1248478766
+s611
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m
+c000000004A6A4B4000000000000004DC
+t1248480064
+s1244
+i"BrowserController.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.h
+c000000004A85E405000000000000020E
+t1250288645
+s526
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m
+c000000004A943FD20000000000000B0A
+t1251229650
+s2826
+i"yourVersionAppDelegate.h"
+i"yourVersionViewController.h"
+i"browserController.h"
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.h
+c000000004A949A3C00000000000003C3
+t1251252796
+s963
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m
+c000000004AB4673900000000000010A9
+t1253336889
+s4265
+i"yourVersionViewController.h"
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png
+c000000004A8603FD0000000000003BC7
+t1250296829
+s15303
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+c000000004AB466E60000000000008456
+t1253336806
+s33878
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png
+c000000004A85DE09000000000000CE27
+t1250287113
+s52775
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png
+c000000004A3F238400000000000012A0
+t1245651844
+s4768
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+c000000004A9473AF0000000000004714
+t1251242927
+s18196
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app.dSYM
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Default.png
+t1253336894
+s15303
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Info.plist
+t1253336893
+s627
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/MainWindow.nib
+t1253336894
+s4189
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/PkgInfo
+t1253336893
+s8
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/YourVersion
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/apple-touch-icon57px.png
+t1253336894
+s52775
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/apple-touch-icon60px.png
+t1253336894
+s4768
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/browserController.nib
+t1253336894
+s4173
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/logo2.gif
+t1253336894
+s3664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/yourVersionViewController.nib
+t1253336894
+s1151
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/YourVersion.LinkFileList
+c000000004AB4673D0000000000000284
+t1253336893
+s644
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/browserController.o
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/yourVersionAppDelegate.o
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/yourVersionViewController.o
+t2
+s0
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif
+c000000004AB466910000000000000E50
+t1253336721
+s3664
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m
+c000000004A6A42F00000000000000166
+t1248477936
+s358
+i<UIKit/UIKit.h>
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+c000000004A6A42F000000000000018B2
+t1248477936
+s6322
+
+N/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch
+c000000004A6A42F000000000000000BF
+t1248477936
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-bmpfixuysrijypgflssjpyininnu/yourVersion_Prefix.pch.gch
+t2
+s0
+
+NyourVersion-Info.plist
+c000000004A85DE1F000000000000038A
+t1250287135
+s906
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies275029692#275029693#0(0"0(0#1#0"4371640#0"0#
+
+CCompileC build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/browserController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/browserController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/main.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/yourVersionAppDelegate.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileC build/yourVersion.build/Release-iphonesimulator/yourVersion.build/Objects-normal/i386/yourVersionViewController.o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Classes/yourVersionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+s275029693.598646
+e275029694.451286
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:10: warning: 'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
+lSLF07#2@25"CompileXIB MainWindow.xib275029693#275029694#0(327"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib:10: warning: 'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.1(22@118"'Your Version View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.275029694#4294967295#0#0(6@69"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib275029606#10#0#10#0#0"0(0#0#69"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib4854736#534"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/MainWindow.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/MainWindow.xib0#
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+s275029694.195174
+e275029694.834989
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:3: warning: Turning off phone number detection is not supported on iPhone OS versions prior 3.0.
+o/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type.
+lSLF07#2@32"CompileXIB browserController.xib275029694#275029694#0(545"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:3: warning: Turning off phone number detection is not supported on iPhone OS versions prior 3.0./Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type.2(22@84"Turning off phone number detection is not supported on iPhone OS versions prior 3.0.275029694#4294967295#0#0(6@76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib272935727#3#0#3#0#0"0(22@155"The 'view' outlet of 'File's Owner' is connected to 'Browser Controller' but 'browserController' is not a kind of 'UIView' as specified by the outlet type.275029694#4294967295#0#0(6@76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib272935727#4294967295#0#4294967295#0#0"0(0#0#76"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib2433711424#548"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/browserController.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/browserController.xib0#
+
+CCompileXIB /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+s275029693.639427
+e275029694.195005
+r1
+xCompileXIB
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib
+lSLF07#2@40"CompileXIB yourVersionViewController.xib275029693#275029694#0(0"0(0#0#84"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib2433711424#564"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/yourVersionViewController.nib /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersionViewController.xib0#
+
+CCpResource build/Release-iphonesimulator/YourVersion.app/Default.png Default.png
+s275029694.455436
+e275029694.510378
+r1
+xCpResource
+xbuild/Release-iphonesimulator/YourVersion.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png275029694#275029694#0(0"0(0#0#66"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png2433711424#530"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/Default.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app0#
+
+CCpResource build/Release-iphonesimulator/YourVersion.app/apple-touch-icon57px.png apple-touch-icon57px.png
+s275029694.453578
+e275029694.506170
+r1
+xCpResource
+xbuild/Release-iphonesimulator/YourVersion.app/apple-touch-icon57px.png
+xapple-touch-icon57px.png
+lSLF07#2@29"Copy apple-touch-icon57px.png275029694#275029694#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png4371640#543"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon57px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app0#
+
+CCpResource build/Release-iphonesimulator/YourVersion.app/apple-touch-icon60px.png apple-touch-icon60px.png
+s275029694.451412
+e275029694.491065
+r1
+xCpResource
+xbuild/Release-iphonesimulator/YourVersion.app/apple-touch-icon60px.png
+xapple-touch-icon60px.png
+lSLF07#2@29"Copy apple-touch-icon60px.png275029694#275029694#0(0"0(0#0#79"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png4371640#543"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/apple-touch-icon60px.png /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app0#
+
+CCpResource build/Release-iphonesimulator/YourVersion.app/logo2.gif logo2.gif
+s275029694.457338
+e275029694.506997
+r1
+xCpResource
+xbuild/Release-iphonesimulator/YourVersion.app/logo2.gif
+xlogo2.gif
+lSLF07#2@14"Copy logo2.gif275029694#275029694#0(0"0(0#0#64"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif2433711424#528"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/logo2.gif /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app0#
+
+CGenerateDSYMFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app.dSYM /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/YourVersion
+r0
+
+CLd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/YourVersion normal i386
+r0
+
+CProcessInfoPlistFile /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Info.plist yourVersion-Info.plist
+s275029693.569860
+e275029693.598555
+r1
+xProcessInfoPlistFile
+x/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Info.plist
+xyourVersion-Info.plist
+lSLF07#2@30"Process yourVersion-Info.plist275029693#275029693#0(0"0(0#0#77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion-Info.plist4371640#543"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility yourVersion-Info.plist -genpkginfo /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app/Info.plist0#
+
+CProcessPCH /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-bmpfixuysrijypgflssjpyininnu/yourVersion_Prefix.pch.gch yourVersion_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s275029694.835655
+e275029699.739568
+r0
+xProcessPCH
+x/var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-bmpfixuysrijypgflssjpyininnu/yourVersion_Prefix.pch.gch
+xyourVersion_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,
+o                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/stdarg.h:4:25: error: stdarg.h: No such file or directory
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:16,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,
+o                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/float.h:8:24: error: float.h: No such file or directory
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h:32,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:125,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:21,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:2,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:107,
+o                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:29:23: error: xmmintrin.h: No such file or directory
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h:32,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:125,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:21,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:2,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:107,
+o                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:216: error: syntax error before '__m128'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:218: error: syntax error before 'sd'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:220: error: syntax error before '}' token
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:264: error: array type has incomplete element type
+lSLF07#2@33"Precompile yourVersion_Prefix.pch275029694#275029699#0(5373"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:12,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/stdarg.h:4:25: error: stdarg.h: No such file or directoryIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:16,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/float.h:8:24: error: float.h: No such file or directoryIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h:32,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:125,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:21,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:2,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:107,                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:29:23: error: xmmintrin.h: No such file or directoryIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h:32,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h:125,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h:20,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:21,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:2,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:107,                 from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:216: error: syntax error before '__m128'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:218: error: syntax error before 'sd'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:220: error: syntax error before '}' token/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h:264: error: array type has incomplete element type7(4@35"Stdarg.h: No such file or directory275029695#466#154#4(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029695#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029695#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h275029695#4294967295#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h217656892#12#0#12#0#0"0(13@143"Stdarg.h: No such file or directory in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/stdarg.h275029695#4294967295#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/stdarg.h217634993#4#0#4#0#0"0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/stdarg.h217634993#4#0#4#0#28"*: No such file or directory0(4@34"Float.h: No such file or directory275029695#1086#152#4(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029695#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029695#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h275029695#4294967295#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h217656892#16#0#16#0#0"0(13@141"Float.h: No such file or directory in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/float.h275029695#4294967295#0#0(6@103"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/float.h217634993#8#0#8#0#0"0(6@103"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/usr/include/float.h217634993#8#0#8#0#28"*: No such file or directory0(4@38"Xmmintrin.h: No such file or directory275029697#2711#246#9(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029697#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029697#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#107#0#107#0#0"0(7@185"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h275029697#4294967295#0#0(6@163"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h217673510#8#0#8#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h246937005#2#0#2#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h275029697#4294967295#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h217673198#21#0#21#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h217672493#20#0#20#0#0"0(7@207"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h275029697#4294967295#0#0(6@185"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h219217509#125#0#125#0#0"0(7@211"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h275029697#4294967295#0#0(6@189"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h219217509#32#0#32#0#0"0(13@234"Xmmintrin.h: No such file or directory in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h275029697#4294967295#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#29#0#29#0#0"0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#29#0#29#0#28"*: No such file or directory0(4@28"Syntax error before '__m128'275029697#4430#234#9(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029697#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029697#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#107#0#107#0#0"0(7@185"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h275029697#4294967295#0#0(6@163"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h217673510#8#0#8#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h246937005#2#0#2#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h275029697#4294967295#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h217673198#21#0#21#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h217672493#20#0#20#0#0"0(7@207"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h275029697#4294967295#0#0(6@185"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h219217509#125#0#125#0#0"0(7@211"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h275029697#4294967295#0#0(6@189"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h219217509#32#0#32#0#0"0(13@224"Syntax error before '__m128' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h275029697#4294967295#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#216#0#216#0#0"0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#216#0#216#0#23"syntax error before '*'0(4@24"Syntax error before 'sd'275029697#4664#230#9(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029697#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029697#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#107#0#107#0#0"0(7@185"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h275029697#4294967295#0#0(6@163"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h217673510#8#0#8#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h246937005#2#0#2#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h275029697#4294967295#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h217673198#21#0#21#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h217672493#20#0#20#0#0"0(7@207"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h275029697#4294967295#0#0(6@185"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h219217509#125#0#125#0#0"0(7@211"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h275029697#4294967295#0#0(6@189"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h219217509#32#0#32#0#0"0(13@220"Syntax error before 'sd' in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h275029697#4294967295#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#218#0#218#0#0"0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#218#0#218#0#23"syntax error before '*'0(4@29"Syntax error before '}' token275029697#4894#235#9(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029697#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029697#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#107#0#107#0#0"0(7@185"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h275029697#4294967295#0#0(6@163"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h217673510#8#0#8#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h246937005#2#0#2#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h275029697#4294967295#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h217673198#21#0#21#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h217672493#20#0#20#0#0"0(7@207"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h275029697#4294967295#0#0(6@185"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h219217509#125#0#125#0#0"0(7@211"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h275029697#4294967295#0#0(6@189"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h219217509#32#0#32#0#0"0(13@225"Syntax error before '}' token in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h275029697#4294967295#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#220#0#220#0#0"0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#220#0#220#0#29"syntax error before '*' token0(4@38"Array type has incomplete element type275029697#5129#244#9(7@99"In file included from /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch275029697#4294967295#0#0(6@77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch270170736#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h275029697#4294967295#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h217673510#107#0#107#0#0"0(7@185"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h275029697#4294967295#0#0(6@163"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h217673510#8#0#8#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h246937005#2#0#2#0#0"0(7@177"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h275029697#4294967295#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h217673198#21#0#21#0#0"0(7@191"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h275029697#4294967295#0#0(6@169"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers/AE.h217672493#20#0#20#0#0"0(7@207"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h275029697#4294967295#0#0(6@185"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/CarbonCore.h219217509#125#0#125#0#0"0(7@211"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h275029697#4294967295#0#0(6@189"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/DriverServices.h219217509#32#0#32#0#0"0(13@234"Array type has incomplete element type in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h275029697#4294967295#0#0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#264#0#264#0#0"0(6@192"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MachineExceptions.h219217509#264#0#264#0#0"0(0#0#77"/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch2433711424#2018"    cd /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/YourVersion-generated-files.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/YourVersion-own-target-headers.hmap -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/YourVersion-all-target-headers.hmap -iquote /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/YourVersion-project-headers.hmap -F/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/include -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/DerivedSources/i386 -I/Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/yourVersion.build/Release-iphonesimulator/yourVersion.build/DerivedSources -c /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/yourVersion_Prefix.pch -o /var/folders/8F/8FEKcZb6FZSiY3nn3OjnkE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/yourVersion_Prefix-bmpfixuysrijypgflssjpyininnu/yourVersion_Prefix.pch.gch1#
+
+CTouch /Users/Mac/Documents/blinkx-source/iphone/iphone/gmail/build/Release-iphonesimulator/YourVersion.app
+r0
+
